@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: 韩嘉琪 | 环境科学研究者
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: education.qmd
+        text: 教育背景
+      - href: honors.qmd 
+        text: 学术荣誉
+      - href: contact.qmd
+        text: 联系方式
+    right:
+      - icon: github
+        href: https://github.com/han-jiaqi
+      - icon: linkedin
+        href: https://linkedin.com/in/hanjiaqi
+
+format:
+  html:
+    theme: flatly
+    highlight-style: zenburn
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    page-layout: full
+
+metadata:
+  author: 韩嘉琪
+  description: 环境科学硕士 | 水污染治理研究方向 | 华中农业大学
+  lang: zh-CN
